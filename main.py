@@ -1,9 +1,9 @@
 import time
 import random
-from selenium import webdriver
+from selenium import webdriver #pip install selenium
 
 print("https://chromedriver.chromium.org/downloads")
-url = input("Enter The URL Below: ")  # 'https://www.neoenbd.com/#/register?inviteCode=871424'
+url = input("Enter The URL Below: ")  # 'https://www.neoenbd.com/#/register?inviteCode=906020'
 acc_num = int(input("How many account you want to generate : "))
 
 for i in range(acc_num):
